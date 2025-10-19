@@ -13,9 +13,9 @@ object RetrofitClient {
     private const val BASE_URL = "https://nit3213api.onrender.com/"
     
     // Increased timeouts for cold start scenarios
-    private const val CONNECT_TIMEOUT = 30L
-    private const val READ_TIMEOUT = 30L
-    private const val WRITE_TIMEOUT = 30L
+    private const val CONNECT_TIMEOUT = 60L
+    private const val READ_TIMEOUT = 60L
+    private const val WRITE_TIMEOUT = 60L
 
     private val loggingInterceptor = HttpLoggingInterceptor().apply {
         setLevel(HttpLoggingInterceptor.Level.BODY)
