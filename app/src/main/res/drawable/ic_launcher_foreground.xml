@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Graduation cap board (mortarboard) -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M54,38 L76,48 L54,58 L32,48 Z"/>
+    
+    <!-- Graduation cap side/crown -->
+    <path
+        android:fillColor="#e2e8f0"
+        android:pathData="M32,48 L32,56 C32,56 40,64 54,64 C68,64 76,56 76,56 L76,48 L54,58 Z"/>
+    
+    <!-- Tassel string -->
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:pathData="M54,38 L54,30"/>
+    
+    <!-- Tassel button -->
+    <path
+        android:fillColor="#ffd700"
+        android:pathData="M54,30 m-3.5,0 a3.5,3.5 0 1,0 7,0 a3.5,3.5 0 1,0 -7,0"/>
+    
+    <!-- Tassel fringe -->
+    <path
+        android:strokeColor="#ffd700"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M51,32 L49,38 M54,32 L54,39 M57,32 L59,38"/>
+    
+    <!-- Books/diploma underneath -->
+    <path
+        android:fillColor="#ffffff"
+        android:pathData="M42,68 L66,68 L66,74 L42,74 Z"/>
+    <path
+        android:fillColor="#e2e8f0"
+        android:pathData="M44,76 L64,76 L64,80 L44,80 Z"/>
+        
+</vector>

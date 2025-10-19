@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">University Portal</string>
+    
+    <!-- Login Screen -->
+    <string name="login_welcome">Welcome to University Portal</string>
+    <string name="login_subtitle">Sign in to access your academic dashboard</string>
+    <string name="login_username_hint">Student ID / Username</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_button">Sign In</string>
+    <string name="login_location_hint">Select Campus</string>
+    <string name="login_error_empty">Please enter your credentials</string>
+    
+    <!-- Dashboard Screen -->
+    <string name="dashboard_title">Academic Dashboard</string>
+    <string name="dashboard_welcome">Welcome back, Student!</string>
+    <string name="dashboard_empty">No courses available at the moment</string>
+    <string name="dashboard_loading">Loading your courses...</string>
+    
+    <!-- Error Messages -->
+    <string name="error_generic">Something went wrong. Please try again.</string>
+    <string name="error_network">Network error. Check your connection.</string>
+    <string name="error_invalid_credentials">Invalid credentials. Please check your username and password.</string>
+    <string name="error_invalid_location">Invalid location or credentials. Please verify your selection and try again.</string>
+    <string name="error_connection">Connection error. Please check your internet connection and try again.</string>
+    <string name="error_authentication">Authentication failed. Invalid username or password.</string>
+    <string name="error_server">Server error. Please try again later.</string>
+    <string name="error_login_failed">Login failed. Please try again.</string>
+    <string name="error_missing_keypass">Missing keypass</string>
+    <string name="error_dashboard_load">Failed to load dashboard. Please try again.</string>
+    <string name="error_data_not_found">Data not found. Please login again.</string>
+    <string name="error_session_expired">Session expired. Please login again.</string>
+    <string name="error_no_keypass">No valid keypass found</string>
+    
+    <!-- Validation Messages -->
+    <string name="validation_empty_all">Please enter both username and password</string>
+    <string name="validation_empty_username">Please enter your username</string>
+    <string name="validation_empty_password">Please enter your password</string>
+    <string name="validation_empty_location">Please select a location</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary University Colors -->
+    <color name="university_primary">#1E3A8A</color>
+    <color name="university_primary_dark">#1E40AF</color>
+    <color name="university_primary_light">#3B82F6</color>
+    
+    <!-- Secondary Colors -->
+    <color name="university_secondary">#059669</color>
+    <color name="university_accent">#DC2626</color>
+    <color name="university_gold">#F59E0B</color>
+    
+    <!-- Neutral Colors -->
+    <color name="university_dark">#1F2937</color>
+    <color name="university_gray">#6B7280</color>
+    <color name="university_light_gray">#F3F4F6</color>
+    <color name="university_white">#FFFFFF</color>
+    
+    <!-- Background Colors -->
+    <color name="university_bg_primary">#F8FAFC</color>
+    <color name="university_bg_secondary">#E2E8F0</color>
+    
+    <!-- Text Colors -->
+    <color name="university_text_primary">#1F2937</color>
+    <color name="university_text_secondary">#6B7280</color>
+    <color name="university_text_light">#9CA3AF</color>
+    
+    <!-- Legacy colors for compatibility -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Test</title>
+</head>
+<body>
+    <h1>NIT3213 API Test</h1>
+    <button onclick="testAPI('footscray')">Test Footscray</button>
+    <button onclick="testAPI('sydney')">Test Sydney</button>
+    <button onclick="testAPI('br')">Test Brisbane</button>
+    
+    <div id="result"></div>
+    
+    <script>
+        async function testAPI(location) {
+            const resultDiv = document.getElementById('result');
+            resultDiv.innerHTML = `Testing ${location}...`;
+            
+            try {
+                const response = await fetch(`https://nit3213api.onrender.com/${location}/auth`, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        username: "bidhan",
+                        password: "9131464"
+                    })
+                });
+                
+                const data = await response.json();
+                resultDiv.innerHTML = `
+                    <h3>${location} Result:</h3>
+                    <p>Status: ${response.status}</p>
+                    <p>Response: ${JSON.stringify(data, null, 2)}</p>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `
+                    <h3>${location} Error:</h3>
+                    <p>Error: ${error.message}</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
