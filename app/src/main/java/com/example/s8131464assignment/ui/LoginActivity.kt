@@ -45,9 +45,7 @@ class LoginActivity : AppCompatActivity() {
         val locations = listOf("footscray", "sydney", "br")
         spinner.adapter = ArrayAdapter(this, android.R.layout.simple_spinner_dropdown_item, locations)
 
-        // Prefill credentials for convenience
-        username.setText("bidhan")
-        password.setText("8131464")
+
 
         lifecycleScope.launch {
             repeatOnLifecycle(Lifecycle.State.STARTED) {
