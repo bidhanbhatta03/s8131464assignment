@@ -58,7 +58,7 @@ class DashboardActivity : AppCompatActivity() {
         }
 
         // Trigger load
-
+        viewModel.load(keypass)
     }
 }
 
